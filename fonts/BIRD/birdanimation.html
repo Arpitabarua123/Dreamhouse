@@ -1,0 +1,217 @@
+<html>
+	<head>
+		<tittle></tittle>
+		<style type="text/css">
+			body
+			{
+				margin: 0;
+			}
+				#mainarea{
+					width:1200px;
+					height:1500px;
+					background:red;
+					margin:0 auto; 
+					}
+				#toparea{
+					width:1200px;
+					height:150px;
+					background:yellow;
+					}
+				#logoarea{
+					width:150px;
+					height:150px;
+					background:black;
+					float:left;
+					}
+				#tittlearea{
+					width:1050px;
+					height:150px;
+					background:violet;
+					float:left;
+					}
+				#menuarea{
+					width:1200px;
+					height:40px;
+					background:white;
+					}
+				@keyframes jsr{
+						0%{
+							transform:translateX(-300px);
+							}
+						100%{
+							transform:translateX(1200px);
+							}
+
+
+						}
+
+				#slidearea{
+					width:1200px;
+					height:300px;
+					background:white;
+					overflow:hidden;
+					float:left;
+
+					}
+				#slidearea img{
+					animation:jsr;
+					animation-duration:4s;
+					animation-iteration-count:infinte;
+
+						}
+				#darea{
+					width:1200px;
+					height:300px;
+					background:blue;
+					}
+				#d1area{
+					width:600px;
+					height:300px;
+					background:pink;
+					float:left;
+					}
+				#d2area{
+					width:600px;
+					height:300px;
+					background:yellow;
+					float:left;
+					}
+				@keyframes bird{
+						0%{
+							background:url('1.png') no-repeat;									}
+						10%{
+							background:url('2.png') no-repeat;
+							transform:translate(20px, -10px);
+							}
+						20%{
+							background:url('3.png') no-repeat;
+							transform:translate(30px, -30px);
+							}
+						30%{
+							background:url('4.png') no-repeat;
+							transform:translate(20px, 20px);
+							}
+						40%{
+							background:url('5.png') no-repeat;
+							transform:translate(40px, 40px);
+							}
+						50%{
+							background:url('6.png') no-repeat;
+							transform:translate(30px, 30px);
+							}
+						60%{
+							background:url('7.png') no-repeat;
+							transform:translate(40px, 40px);
+							}
+						70%{
+							background:url('8.png') no-repeat;
+							transform:translate(30px, 30px);
+							}
+						80%{
+							background:url('9.png') no-repeat;
+							transform:translate(20px, -20px);
+							}
+						90%{
+							background:url('3.png') no-repeat;
+							transform:translate(30px, -30px);
+							}
+						100%{
+							background:url('7.png') no-repeat;
+							transform:translate(40px, 40px);
+							}
+						}
+				#boxarea{
+					width:1200px;
+					height:300px;
+					background:white;
+					float:left;
+					}
+				.box {
+					width:150px;
+					height:150px;
+					background:violet;
+					margin:25px;
+					animation-name:bird;
+					animation-duration:4s;
+					animation-iteration_count:infinite;
+					background-repeat:none;
+					float:left;
+					}
+				.box:hover{
+						border-radius:50%;
+						box-shadow:15px 15px;
+						}
+				
+				#footarea{
+					width:1200px;
+					height:410px;
+					background:orange;
+					float:left;
+					}
+				#f1area{
+					width:300px;
+					height:410px;
+					background:black;
+					float:left;
+					}
+				#f2area{
+					width:300px;
+					height:410px;
+					background:orange;
+					float:left;
+					}
+				#f3area{
+					width:300px;
+					height:410px;
+					background:black;
+					float:left;
+					}
+				#f4area{
+					width:300px;
+					height:410px;
+					background:orange;
+					float:left;
+					}
+				
+		</style>
+	</head>
+	<body>
+			<div id="mainarea";>
+				<div id="toparea">
+					<div id="logoarea">
+					
+					</div>
+					<div id="tittlearea">
+					
+					</div>
+					
+				</div>
+				<div id="menuarea">
+				</div>
+				<div id="slidearea">
+					<img src="car.png"/>
+				</div>
+				<div id="darea">
+					<div id="d1area">
+					</div>
+					<div id="d2area">
+					</div>
+				</div>
+				<div id="boxarea">
+					<div class="box">
+					</div>
+				
+				</div>
+				<div id="footarea">
+					<div id="f1area">
+					</div>
+					<div id="f2area">
+					</div>
+					<div id="f3area">
+					</div>
+					<div id="f4area">
+					</div>
+				</div>
+			</div>
+	</body>
+</html>

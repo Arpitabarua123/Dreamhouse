@@ -7,20 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Neonderthaw&family=Sassy+Frass&display=swap"
-    rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Courgette&family=Dancing+Script&family=Neonderthaw&family=Sassy+Frass&display=swap"
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Neonderthaw&family=Sassy+Frass&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Courgette&family=Dancing+Script&family=Neonderthaw&family=Sassy+Frass&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
 
   <title></title>
 </head>
@@ -30,9 +27,10 @@
   <header class="toparea" style="position: sticky; top: 0; z-index: 1000;" >
    <div class="container-fluid">
      <div class="row">
-       <div class="col">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow p-3 mb-5 bg-white rounded">
+       
+        <nav class=" col-12 navbar navbar-expand-lg navbar-light bg-light border-bottom shadow   bg-white rounded">
           <a class="navbar-brand" href="#">Dream <span class="text-warning ">House</span></a>
+          <i class="fa fa-home"></i>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -142,7 +140,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-sm-12 col-md-6 col-lg-6" data-aos="zoom-in">
           <h1>What do you want <span class="text-warning">to know?</span></h1>
 
           <p class=" para p-2">
@@ -159,8 +157,8 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6  m-auto text-end">
 
-          <div class=" rightP text-center ">
-            <img src="f1.jpg" class="img-fluid img-thumbnail" alt="...">
+          <div class=" rightP text-center " data-aos="fade-right">
+            <img src="f1.jpg" class=" paraimg img-fluid img-thumbnail" alt="...">
 
             <button type="button" class="btn btn-warning mt-5">Learn More</button>
 
@@ -181,16 +179,16 @@
         <div class="col">
           <div class=" text-center my-5">
             <h1><span class="text-white">Our</span> <span class="text-warning">Services </span></h1>
-            <hr / class="w-25 m-auto">
+            <hr  class="w-25 m-auto">
           </div>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row"data-aos="zoom-out">
         <div class="col-sm-12 col-md-4 col-lg-4">
           <div class="card">
             <div class="card-body ">
-              <i class="fa fa-users"></i>
+              <i class="fa fa-cubes"></i>
               <h5 class="card-title">Flooring</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-light">Know More</a>
@@ -200,7 +198,7 @@
         <div class="col-sm-12 col-md-4 col-lg-4">
           <div class="card">
             <div class="card-body ">
-              <i class="fa fa-hotel"></i>
+              <i class="fa fa-wrench"></i>
               <h5 class="card-title">Plumbing/Electrical Work</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional jbjb,,h content.</p>
               <a href="#" class="btn btn-light">Know More</a>
@@ -221,11 +219,11 @@
 
       <!-- second ! -->
 
-      <div class="row mt-3 mb-5">
+      <div class="row mt-3 mb-5"data-aos="zoom-out" >
         <div class="col-12 col-md-4 col-lg-4">
           <div class="card">
             <div class="card-body">
-              <i class="fa fa-users"></i>
+              <i class="fa fa-window-restore"></i>
               <h5 class="card-title">False Ceiling</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-light">Know More</a>
@@ -235,7 +233,7 @@
         <div class="col-12 col-md-4 col-lg-4">
           <div class="card">
             <div class="card-body">
-              <i class="fa fa-users"></i>
+              <i class="fa fa-paint-brush"></i>
               <h5 class="card-title">Painting</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-light">Know more</a>
@@ -368,7 +366,7 @@
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-warning">Sign in</button>
           </form>
         </div>
 
@@ -397,69 +395,116 @@
   </section>
   <!-----------------------------------------------------------------------------------------------------------------------------! -->
 
-<footer class ="left-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-6 mt-2 ">
-        <h6> ABOUT</h6>
-        <p class="text-justify">
-          A card is a flexible and extensible content container. 
-          It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. If you’re familiar with Bootstrap 3, 
-          cards replace our old panels,
-           wells, and thumbnails. Similar functionality to those components is available as modifier classes for cards.
+  <footer class="footer-section text-white">
+    <div class="footerarea">
+    <div class="container">
+      <div class="footer-cta py-5">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="single-cta">
+                <i class="fa fa-search"></i>
+                <div class="cta-text">
+                  <h4>Find Us</h4>
+                  <span> Jamshedpur,Jharkhand-831005</span>
 
-
-        </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="single-cta">
+                <i class="fa fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call  Us</h4>
+                  <span>0657-945632145</span>
+                  
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="single-cta">
+                <i class="fa fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail Us</h4>
+                  <span> dreamhouse.official@gmail.com </span>
+                  
+                </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <hr>
+      <div class="footer-content py-5">
+        <div class="row">
+          <div class="col-lg-4 col-12">
+            <div class="footer-widget">
+              <h3>Our Mission</h3>
+              
+              <div class="footer-text">
+                
+                <p>
+                  Here at Foundation Specialists we pride ourselves on getting the job done and getting it done right.
+                   We maintain a constant flow of communication with property management and maintenance staff to ensure a smooth start
+                    to finish. We are frequently called to provide due diligence, engineer report opinions and property condition 
+                    assessments for local and national management companies.
+                </p>
+              </div>
+              
+           
+            </div>
 
-      <div class="col-12 col-md-3 mt-2">
-        <h6>
-          Categories
-        </h6>
-        <ul class="footer-link">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-        </ul>
-      </div>
-      <div class="col-12 col-md-3 mt-2">
-        <h6>
-          Categories
-        </h6>
-        <ul class="footer-link">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-        </ul>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="footer-widget">
+             <div class="footer-weiget-heading">
+              <h3> <span> Follow Us</span></h3>
+              <a href="#"><i class="fa fa-facebook p-3"></i></a>
+              <a href="#"><i class="fa fa-twitter p-2"></i></a>
+              <a href="#"><i class="fa fa-instagram p-2"></i></a>
+             </div> 
+
+             
+             
+           
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="footer-widget">
+             <div class="footer-weiget-heading">
+              <h3> <span> Feedback</span></h3>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="share your opinion" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Done</button>
+              </form>
+             </div> 
+
+             
+             
+           
+            </div>
+
+          </div>
+          
+          
+          </div>
+        </div>
       </div>
     </div>
     <hr>
-  </div>
-    <div class="container-fluid bg-light">
-      <div class="row">
-        <div class="col-sm-6 col-md-8">
-         <p class="copyright-text text-center">
-           Copyright &copy; 2022 All Rights Reserved by
-           <a href="#">
-             DREAM HOUSE
-           </a>
-         </p>
-        </div>
-        <div class="col-sm-6 col-md-8">
-          
-        </div>
-      </div>
-    </div>
+    
     
 
+  </footer>
+  <section class="end">
+    <div class=" container footer-last py-2">
+      <div class="row ">
+        <div class="col">
+        <p class="text-center">Copyright © All Rights Reserved 2022 | Design by Arpita Barua</p>
+      </div>
+    </div>
   </div>
-  
-</footer>
-
+  </section>
+ 
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -469,7 +514,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
     crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
